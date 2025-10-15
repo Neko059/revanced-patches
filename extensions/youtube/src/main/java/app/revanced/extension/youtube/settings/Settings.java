@@ -258,7 +258,7 @@ public class Settings extends BaseSettings {
     public static final BooleanSetting BYPASS_IMAGE_REGION_RESTRICTIONS = new BooleanSetting("revanced_bypass_image_region_restrictions", FALSE, true);
     public static final BooleanSetting GRADIENT_LOADING_SCREEN = new BooleanSetting("revanced_gradient_loading_screen", FALSE, true);
     public static final EnumSetting<SplashScreenAnimationStyle> SPLASH_SCREEN_ANIMATION_STYLE = new EnumSetting<>("revanced_splash_screen_animation_style", SplashScreenAnimationStyle.FPS_60_ONE_SECOND, true);
-    public static final EnumSetting<HeaderLogo> HEADER_LOGO = new EnumSetting<>("revanced_header_logo", HeaderLogo.DEFAULT, true);
+    public static final EnumSetting<HeaderLogo> HEADER_LOGO = new EnumSetting<>("revanced_header_logo", HeaderLogo.CUSTOM, true);
     public static final BooleanSetting DISABLE_SIGNIN_TO_TV_POPUP = new BooleanSetting("revanced_disable_signin_to_tv_popup", FALSE);
 
     public static final BooleanSetting REMOVE_VIEWER_DISCRETION_DIALOG = new BooleanSetting("revanced_remove_viewer_discretion_dialog", FALSE,
